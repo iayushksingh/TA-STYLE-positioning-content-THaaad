@@ -1,0 +1,136 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* CSS Starts */
+
+.clearfix::before, .clearfix::after {
+    content:"";
+    display: table;
+}
+.clearfix::after{
+    clear:both;
+}
+
+*{
+    box-sizing: border-box;
+    line-height: 1.5;
+    color: aliceblue;
+}
+/* header footer */
+header,footer{
+    background-color: #223969;
+    padding: 40px;
+}
+h1{
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    margin-right: 15px;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+
+/* Main */
+
+.sec1 p{
+    color: #223969;
+}
+section,article{
+    padding: 20px;
+}
+
+.col1-2{
+    width: 50%;
+}
+
+h2{
+    font-size: 30px;
+    color: #223969;
+}
+img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.col1-3{
+    width: 33%;
+}
+.btn{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border-width: 0px;
+    background-color: crimson;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+.btn a{
+    color: crimson;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+footer{
+    text-align: center;
+}
+footer p{
+    color: aliceblue;
+}
+.sec1{
+    padding-top: 150px;
+}

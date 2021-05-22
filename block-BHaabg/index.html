@@ -1,0 +1,66 @@
+<!-- ### Exercise
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the logo to the left and all the navigation to the right.
+
+3. The header must be fixed at the top of the page.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Positioning | Assignment 2</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body id="top">
+        <header class="clearfix">
+            <div class="float-left">
+                <h1>BHAUYOUDOING?</h1>
+            </div>
+            <nav class="float-right">
+                <a href="#">LOG IN</a>
+                <a href="#">SIGN UP</a>
+                <a href="#">CONTACT US</a>
+            </nav>
+        </header>
+        <main>
+            <section class="clearfix sec1">
+                <article class="float-left col1-2">
+                    <h2>BHAUYOUDOING?</h2>
+                    <p>
+                        You speak dog better than you think you do. You may not be fluent; that would require actually being a dog. 
+                        But if you went to live in a dogs-only world, you’d be pretty good at understanding what they’re saying. 
+                        You can tell a nervous yip from a menacing growl, a bark that says hello from a bark that says get lost. 
+                        You can read the body language that says happy, that says sad, that says tired, that says scared, that says Please, please, please play with me right now! 
+                        Think that’s not a big deal? Then answer this: What does a happy bird look like? A sad lion? You don’t know, but dog talk you get.
+                    </p>
+                </article>
+                <article class="float-left col1-2">
+                    <img src="Bhau2.jpg" alt="dog picture"/> 
+                </article>
+            </section>
+            <section class="clearfix">
+                <article class="float-left col1-3"><img src="Bhau1.jpg" alt="Dog Pic"/></article>
+                <article class="float-left col1-3"><img src="Bhau3.jpg" alt="Dog Pic"/></article>
+                <article class="float-left col1-3"><img src="Bhau4.jpg" alt="Dog Pic"/></article>
+                <article class="float-left col1-3"><img src="Bhau7.jpg" alt="Dog Pic"/></article>
+                <article class="float-left col1-3"><img src="Bhau9.jpg" alt="Dog Pic"/></article>
+                <article class="float-left col1-3"><img src="Bhau10.jpg" alt="Dog Pic"/></article>
+            </section>
+        </main>
+        <button class="btn">
+            <a href="#top">ALPHA</a>
+        </button>
+        <footer>
+            <p>&copy;IAYUSHKSINGH</p>
+        </footer>
+    </body>
+</html>
